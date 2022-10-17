@@ -5,7 +5,7 @@ $albums = [
         'title' => 'New Jersey',
         'author' => 'Bon Jovi',
         'year' => 1988,
-        'poster' => 'https://m.media-amazon.com/images/I/71rlPeoAqUL._AC_SX569_.jpg',
+        'poster' => 'https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg',
         'genre' => 'Rock'
     ],
     [
