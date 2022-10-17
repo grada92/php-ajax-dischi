@@ -1,30 +1,45 @@
-.container {
-    width: 1200px;
+* {
     margin: 0 auto;
-    padding: 30px 0;
+}
+body {
+    background-color: rgb(59, 74, 89);
+
+}
+header {
+    background-color: hsl(210deg 22% 23%);
+    height: 8vh;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 30px 300px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 
 }
 .card {
-    width: calc(100% / 3 - 40px);
+    width: calc(100% / 3 - 100px);
     margin:20px;
     text-align: center;
-    height: 350px;
+    height: 370px;
     background-color: hsl(210deg 22% 23%);
     color: white;
     align-items: center;
     padding-top: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around
 }
-img {
+.box-card img {
     width: 100%;
 }
 .box-card {
     width: 150px;
     height: 150px;
-    
-    
+}
+
+header img {
+    width: 60px;
+    padding: 8px;
 }
